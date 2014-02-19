@@ -1,4 +1,4 @@
-# Lisp Metadata Importer, a Spotlight Plugin
+# Lisp Metadata Indexer, a Spotlight Plugin
 
 John Wiseman
 jjwiseman@gmail.com
@@ -126,7 +126,7 @@ The Lisp metadata importer indexes the definitions contained in a
 file. This includes functions, macros, classes, methods, generic
 functions, structures, defvars, defparameters and defconstants. It
 also includes any object FOO defined by a form that looks like
-(“defsomething FOO ...)”. In addition to definitions, the entire
+`(defsomething FOO ...)`. In addition to definitions, the entire
 contents of the file are indexed for full text queries.
 
 ## How do I search for something?
